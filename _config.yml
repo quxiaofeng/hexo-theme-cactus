@@ -16,7 +16,6 @@ nav:
   Blog: /archives/
   Research: /research/
   Links: /links/
-  Search: /search/
   About: /about/
 
 
@@ -25,11 +24,11 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github-square: http://www.github.com/quxiaofeng
-  twitter-square: http://www.twitter.com/quxiaofeng
-  facebook-square: http://www.facebook.com/quxiaofeng
-  book: http://www.zhihu.com/people/quxiaofeng # zhihu
-  bookmark: http://www.douban.com/people/gBlueBird # douban
+  d-and-d: http://www.zhihu.com/people/quxiaofeng # zhihu
+  github: http://www.github.com/quxiaofeng
+  twitter: http://www.twitter.com/quxiaofeng
+  facebook: http://www.facebook.com/quxiaofeng
+  firefox: http://www.douban.com/people/gBlueBird # douban
   mail: quxiaofeng@live.com
 
 
