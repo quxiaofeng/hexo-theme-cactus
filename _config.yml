@@ -5,17 +5,19 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: /research/
 
 # Configure the navigation menu.
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /
-  about: /about/
-  articles: /archives/
-  projects: projects_url
+  Home: /
+  Blog: /archives/
+  Research: /research/
+  Links: /links/
+  Search: /search/
+  About: /about/
 
 
 # Links to your social media accounts.
@@ -23,11 +25,12 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github-square: http://www.github.com/quxiaofeng
+  twitter-square: http://www.twitter.com/quxiaofeng
+  facebook-square: http://www.facebook.com/quxiaofeng
+  book: http://www.zhihu.com/people/quxiaofeng # zhihu
+  bookmark: http://www.douban.com/people/gBlueBird # douban
+  mail: quxiaofeng@live.com
 
 
 # Customize the overview with the most recent blog posts on the index page.
@@ -54,7 +57,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/avatar.png
   gravatar: false
 
 # Customize the favicons.
@@ -68,13 +71,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon: 
   desktop:
-    url: /images/favicon.ico
+    url: /images/avatar.png
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/avatar.png
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/avatar.png
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
@@ -127,4 +130,4 @@ baidu_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: name@email.com
+  email: 
